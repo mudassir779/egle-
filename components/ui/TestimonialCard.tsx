@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import { Star, Quote } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import Card from './Card'
@@ -42,8 +43,8 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
       <p className="text-neutral-dark-gray mb-6 italic">{content}</p>
       <div className="flex items-center gap-4">
         {image && (
-          <div className="w-12 h-12 rounded-full overflow-hidden bg-neutral-light-gray">
-            <img src={image} alt={name} className="w-full h-full object-cover" />
+          <div className="w-12 h-12 rounded-full overflow-hidden bg-neutral-light-gray relative">
+            <Image src={image} alt={name} fill className="object-cover" />
           </div>
         )}
         <div>

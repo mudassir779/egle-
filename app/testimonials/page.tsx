@@ -78,7 +78,7 @@ const TestimonialsPage = () => {
                 Client Testimonials
               </h1>
               <p className="text-lg text-neutral-medium-gray max-w-2xl mx-auto">
-                Don't just take our word for it—hear from our satisfied clients
+                Don&apos;t just take our word for it—hear from our satisfied clients
               </p>
             </div>
           </AnimatedSection>

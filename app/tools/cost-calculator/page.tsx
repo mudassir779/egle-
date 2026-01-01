@@ -183,7 +183,7 @@ const CostCalculatorPage = () => {
             {step === 3 && (
               <AnimatedSection direction="up">
                 <h2 className="text-2xl font-heading font-bold text-primary-navy mb-6">
-                  What's your timeline?
+                  What&apos;s your timeline?
                 </h2>
                 <div className="space-y-3 mb-6">
                   {(['1-3', '3-6', '6-12', '12+'] as const).map((timeline) => (

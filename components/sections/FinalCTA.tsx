@@ -49,7 +49,7 @@ const FinalCTA: React.FC = () => {
 
           <AnimatedSection direction="up" delay={0.2}>
             <p className="text-xl text-neutral-light-gray mb-8">
-              Let's discuss your project and explore how we can help you achieve your goals
+              Let&apos;s discuss your project and explore how we can help you achieve your goals
             </p>
           </AnimatedSection>
 

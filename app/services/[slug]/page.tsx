@@ -126,7 +126,7 @@ const ServicePage = ({ params }: ServicePageProps) => {
                 Ready to Get Started?
               </h2>
               <p className="text-neutral-medium-gray mb-8">
-                Let's discuss your project and see how we can help bring your vision to life.
+                Let&apos;s discuss your project and see how we can help bring your vision to life.
               </p>
               <Link href="/contact">
                 <Button variant="primary" size="lg">

@@ -249,7 +249,7 @@ const CaseStudyPage = ({ params }: CaseStudyPageProps) => {
                 Ready to Start Your Project?
               </h2>
               <p className="text-xl text-neutral-light-gray mb-8">
-                Let's discuss how we can help bring your vision to life
+                Let&apos;s discuss how we can help bring your vision to life
               </p>
               <Link href="/contact">
                 <Button variant="primary" size="lg" className="bg-white text-primary-navy hover:bg-opacity-90">
