@@ -74,7 +74,7 @@ const ContactPage = () => {
                 Get In Touch
               </h1>
               <p className="text-lg text-neutral-medium-gray max-w-2xl mx-auto">
-                Ready to start your project? Let's discuss how we can help bring your vision to life.
+                Ready to start your project? Let&apos;s discuss how we can help bring your vision to life.
               </p>
             </div>
           </AnimatedSection>
@@ -147,7 +147,7 @@ const ContactPage = () => {
                 {isSubmitted && (
                   <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center gap-2 text-green-700">
                     <CheckCircle className="w-5 h-5" />
-                    <span>Thank you! We'll get back to you soon.</span>
+                    <span>Thank you! We&apos;ll get back to you soon.</span>
                   </div>
                 )}
                 <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">

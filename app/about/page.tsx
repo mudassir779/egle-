@@ -56,11 +56,11 @@ const AboutPage = () => {
                   worldwide.
                 </p>
                 <p className="text-neutral-medium-gray mb-4">
-                  We believe that great software is not just about code—it's about understanding your business,
+                  We believe that great software is not just about code—it&apos;s about understanding your business,
                   anticipating your needs, and delivering solutions that drive real results.
                 </p>
                 <p className="text-neutral-medium-gray">
-                  Today, we're proud to have delivered {COMPANY_INFO.stats.projectsCompleted}+ successful projects
+                  Today, we&apos;re proud to have delivered {COMPANY_INFO.stats.projectsCompleted}+ successful projects
                   and built lasting relationships with clients across {COMPANY_INFO.stats.countriesServed} countries.
                 </p>
               </div>
